@@ -1,0 +1,57 @@
+/* Reset de estilos básicos para garantir consistência entre navegadores */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos gerais */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    height: 100vh;
+  }
+  
+  header {
+    background-color: #770347;
+    color: rgb(2, 0, 0);
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: rgb(4, 220, 248);
+  }
+  
+  section {
+    padding: 2rem;
+  }
+  
+  /* Estilos específicos */
+  #projetos {
+    background-color: #c00d55;
+  }
+  
+  .projeto {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: rgb(74, 53, 53);
+    text-align: center;
+    padding: 1rem 0;
+  }
+  
